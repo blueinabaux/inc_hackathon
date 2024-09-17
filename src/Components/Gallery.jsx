@@ -1,6 +1,15 @@
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import '../Styling/gallery.css';
+import img1 from "../Assets/tf_img1.jpg"
+import img2 from "../Assets/tf_img2.jpg"
+import img3 from "../Assets/tf_img3.jpg"
+import img4 from "../Assets/tf_img4.jpg"
+import img5 from "../Assets/tf_img5.jpg"
+import img6 from "../Assets/tf_img6.jpg"
+import img7 from "../Assets/tf_img7.jpg"
+
+
 const Gallery = () => {
     
     const [image, setImage] = useState([]);
@@ -11,16 +20,33 @@ const Gallery = () => {
     const eventImages = [
         {
             id:1,
-            img:"image_url here"
+            img: img1
         },
         {
             id:2,
-            img:"image_url here"
+            img: img2
         },
         {
             id:3,
-            img:"image_url here"
+            img: img3
         },
+        {
+            id:4,
+            img: img4
+        },
+        {
+            id:5,
+            img: img5
+        },
+        {
+            id:6,
+            img: img6
+        },
+        {
+            id:7,
+            img: img7
+        },
+
     ];
 
 
@@ -54,17 +80,25 @@ const Gallery = () => {
                    <div className="scroll-gallery">
 
                     {/* for static images, change the image to eventImages accordingly */}
-                   {
+                    {
+                        eventImages.map((img) => {
+                            return(
+                                <>
+                                    <img src={img.img} alt="" />
+                                </>
+                            );
+                        })
+                    }
+                   {/* {
                         image.length > 0 ? (image.map((img) => {
                             return(
                                 <>
-                                    {/* <h2>{img.author}</h2> */}
                                     <img src={img.download_url} alt="" />
                                 </>
                             );
                         })) : (<h1>NOT FOUND</h1>)
                         
-                    }
+                    } */}
                    </div>
                 </div>
             </div>

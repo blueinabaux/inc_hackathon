@@ -44,15 +44,43 @@
     align-items: start;
     
 }
+
+.top-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+}
+.top-right{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.top-right select{
+    height: 6vh;
+    padding: 0 2vw;
+}
 .ps{
     height: 8vh;
     /* width: 30vw; */
-    padding: 0 5vw;
+    padding: 0 3vw;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
+
+}
+
+button h3{
+    font-size: 25px;
+
 }
 
 .all-wins{

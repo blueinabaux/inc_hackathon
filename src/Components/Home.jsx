@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <>
       <div className="marquee" id="ppt_download">
-        <p>Congratulations to all Winners of TechFiesta'25</p>
+        <p>TechFiesta'25 Coming Soon !</p>
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
@@ -42,71 +42,20 @@ const Home = () => {
 
       {showDialog && (
         <div className="dialog_home">
-          <h1>Grand Finale Schedule</h1>
-          <p>
-            The most awaited and thrilling finale of Techfiesta will be
-            conducted in offline mode at the PICT Campus on 29th and 30th March.
-          </p>
-          <hr />
-          <h1>Regarding Idea Submission</h1>
-          <p>
-            Those who have paid the fees, but have not completed g-form / Not
-            received a mail, please click on the link below -
-          </p>
-          <div className="link_to_next_page">
-            <button id="next_page">
-              <a href="https://forms.gle/AJWgP4aKcwqXgZKi8">Google Form</a>
-            </button>
-          </div>
-
-          <hr />
-          <h1>Registration Extended</h1>
           <span className="close" onClick={handleDialogToggle}>
             &times;
           </span>
-          <p>
-            In view of the requests from various colleges regarding idea
-            submission, registration & idea submission for hackathon is extended
-            upto 19th Feb.
-          </p>
-          <div className="link_to_next_page">
-            <button id="next_page">
-              <Link to="/register" onClick={handleDialogToggle}>
-                Register Now
-              </Link>
-            </button>
-          </div>
-          <hr />
-          <h1>Instructions Regarding Online Meeting</h1>
-          <p>
-            An online meeting is scheduled on 16th February at 11:00 am for all
-            team leaders, please check the instructions below.
-          </p>
-          <div className="link_to_next_page">
-            <button id="next_page">
-              <Link to="/instructions" onClick={handleDialogToggle}>
-                Details
-              </Link>
-            </button>
-          </div>
+          <h1>Page under construction</h1>
+          {/* <h4>Updates will be conveyed soon</h4> */}
         </div>
       )}
       {showDialog1 && (
         <div className="dialog_home_1">
-          <h1>Winners of TechFiesta</h1>
+          <h1>Winners to be Declared</h1>
           <span className="close" onClick={handleDialogToggle1}>
             &times;
           </span>
-          <p>Congratulations to all the Winners and participants who showed enthusiasm throughout the TechFiesta-Grand Finale</p>
-          <div className="link_to_next_page">
-            <button id="next_page">
-              <Link to='/winner'>
-                Winners
-              </Link>
-            </button>
-            <br />
-            <br />
-          </div>
+          
         </div>
       )}
       <div className="main_page">

@@ -17,6 +17,7 @@ import Winners from "./Components/Winners"
 import Gallery from "./Components/Gallery";
 import Rules from "./Components/Rules";
 import Archive from "./Components/Archive";
+import ProblemPage from "./Components/ProblemPage";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/problem" element={<Problem></Problem>}></Route>
+        <Route path="/ps" element={<ProblemPage/>}></Route>
         <Route path="/guidelines" element={<Guidelines></Guidelines>}></Route>
         <Route path="/register" element={<Register_Coming></Register_Coming>}></Route>
         <Route path="/timeline" element={<Timeline></Timeline>}></Route>

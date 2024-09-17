@@ -3,19 +3,19 @@ import "../Styling/Timeline.css";
 
 const timelineData = [
   {
-    date: "Till 19th Feb 2024",
+    date: "Coming soon",
     title: "Problem Statement Submission",
     content:
       "Team Leader's are expected to submit their idea on portal in form of ppt",
   },
   {
-    date: "Last Week of Feb 2024",
+    date: "Coming soon",
     title: "Online Evaluation",
     content:
       "Online presentation round will be conducted during this span of time",
   },
   {
-    date: "Last Week of March 2024",
+    date: "Coming soon",
     title: "Grand Finale",
     content:
       "All shortlisted teams will then compete in Grand Finale to win amazing prizes",
