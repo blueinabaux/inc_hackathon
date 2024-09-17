@@ -78,7 +78,7 @@ const Rules = () => {
         <h2>IDEA NOMINATION PROCESS</h2>
         <ul>
           <li>
-            Idea submission form will start from 19/01/2024 and only 100 teams
+            Idea submission form will start from Last week of January and only 100 teams
             will be shortlisted for further rounds.
           </li>
           <li>
@@ -88,7 +88,7 @@ const Rules = () => {
           <li>
             <span className="imp">
               The last date for team nomination and idea submission by team
-              leader on portal is till 19/02/2024 only. No request will be
+              leader on portal is till Last week of January only. No request will be
               entertained after the deadline.
             </span>
           </li>
@@ -110,9 +110,9 @@ const Rules = () => {
         <h2>MODE OF HACKATHON</h2>
         <ul>
           <li>
-            TechFiesta PICT-Hackathon 2024’s pre-final rounds will be held
+            TechFiesta PICT-Hackathon 2025's pre-final rounds will be held
             online. The tentative date for these rounds will be Last Week of
-            Feb 2024. The final round will be held offline and will be held Last week of March 2024.
+            Feb 2025. The final round will be held offline and will be held Last week of March 2025.
           </li>
         </ul>
       </div>

@@ -34,9 +34,9 @@ const Home = () => {
           className="Registeration_extension_1"
           onClick={handleDialogToggle1}
         >
-          <div className="extended">
+          {/* <div className="extended">
             <img src={winners} alt="" />
-          </div>
+          </div> */}
         </div>
       }
 
