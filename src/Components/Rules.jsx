@@ -42,7 +42,7 @@ const Rules = () => {
             her is accurate.
           </li>
           <li>
-            The team’s name should be unique and must not contain the name of
+            The team's name should be unique and must not contain the name of
             your institute in any form.
           </li>
           <li>
@@ -54,7 +54,7 @@ const Rules = () => {
           <li>
             <span className="imp">
               International teams, before registration, please email{" "}
-              <a href="mailto:litakeatharva24@gmail.com">
+              <a href="mailto:abc@gmail.com">
                 abc@gmail.com
               </a>
             </span>
@@ -67,7 +67,7 @@ const Rules = () => {
           <li>
             <span className="imp">
               The teams registered for TechFiesta shall be allowed to
-              participate in Impetus n Concepts 2024 other subevents (free of
+              participate in Impetus n Concepts 2025 other subevents (free of
               charges). However, such teams must register for those events
               separately.
             </span>
