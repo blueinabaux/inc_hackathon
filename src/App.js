@@ -14,6 +14,9 @@ import Register from "./Components/Register";
 import Submit from "./Components/Submit";
 import Meet_instructions from "./Components/Meet_instructions";
 import Winners from "./Components/Winners"
+import Gallery from "./Components/Gallery";
+import Rules from "./Components/Rules";
+import Archive from "./Components/Archive";
 function App() {
   return (
     <BrowserRouter>
@@ -28,6 +31,10 @@ function App() {
         <Route path="/instructions" element={<Meet_instructions></Meet_instructions>}></Route>
         <Route path="/thankyoufrompict_techfiesta" element={<Submit />}></Route>
         <Route path="/winner" element={<Winners />}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/rules" element={<Rules />}></Route>
+        <Route path="/archive" element={<Archive />}></Route>
+
       </Routes>
     </BrowserRouter>
   );

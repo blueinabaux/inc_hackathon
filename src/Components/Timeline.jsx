@@ -9,13 +9,13 @@ const timelineData = [
       "Team Leader's are expected to submit their idea on portal in form of ppt",
   },
   {
-    date: "23rd Feb - 29th Feb 2024",
+    date: "Last Week of Feb 2024",
     title: "Online Evaluation",
     content:
       "Online presentation round will be conducted during this span of time",
   },
   {
-    date: "29th March - 30th March 2024",
+    date: "Last Week of March 2024",
     title: "Grand Finale",
     content:
       "All shortlisted teams will then compete in Grand Finale to win amazing prizes",

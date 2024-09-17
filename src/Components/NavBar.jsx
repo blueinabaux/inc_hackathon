@@ -29,7 +29,7 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
+              {/* <NavLink
                 exact
                 to="/guidelines"
                 activeClassName="active"
@@ -37,6 +37,15 @@ function NavBar() {
                 onClick={handleClick}
               >
                 Guidelines
+              </NavLink> */}
+              <NavLink
+                exact
+                to="/gallery"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Gallery
               </NavLink>
             </li>
             <li className="nav-item">
@@ -59,6 +68,17 @@ function NavBar() {
                 onClick={handleClick}
               >
                  Problem Statements
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/archive"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                 Archive
               </NavLink>
             </li>
             <li className="nav-item">

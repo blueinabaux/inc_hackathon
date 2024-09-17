@@ -6,10 +6,10 @@ import domain4 from '../Assets/domain4.png';
 import '../Styling/Themes.css';
 
 const themeData = [
-    { id: 1, name: 'Smart Cities / Villages', image: domain1 },
+    { id: 1, name: 'Agriculture', image: domain4 },
     { id: 2, name: 'Healthcare', image: domain2 },
     { id: 3, name: 'Education Technology', image: domain3 },
-    { id: 4, name: 'Agriculture', image: domain4 },
+    { id: 4, name: 'Others', image: domain1 },
 ];
 
 const Themes = () => {

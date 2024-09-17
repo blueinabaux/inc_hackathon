@@ -1,0 +1,68 @@
+.archiveMain{
+    height: 90vh;
+    width: 100vw;
+    /* background-color: rgb(88, 19, 19); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.archive-top{
+    height: 20%;
+    width: 100vw;
+    /* background-color: rgb(217, 139, 55); */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 2vw;
+    gap: 2vw;
+}
+.archive-content{
+    height: 80%;
+    width: 100vw;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: scroll;
+
+}
+
+.problem{
+    width: 100%;
+    height: 100%;
+}
+
+.archive-scroll{
+    min-height: auto;
+    width: 100vw;
+    /* background-color: rgb(118, 27, 27); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+.ps{
+    height: 8vh;
+    /* width: 30vw; */
+    padding: 0 5vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.all-wins{
+    height: 8vh;
+    /* width: 30vw; */
+    padding: 0 5vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}

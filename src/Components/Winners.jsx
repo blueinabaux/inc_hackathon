@@ -56,7 +56,7 @@ const Problem = () => {
   return (
     <div className="problem">
       <div className="problem_statements">
-        <h1>WINNERS</h1>
+        {/* <h1>WINNERS</h1> */}
         <div className="table-responsive" style={{ borderRadius: "10px" }}>
           <table className="table table-hover">
             <thead>

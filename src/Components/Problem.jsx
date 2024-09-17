@@ -214,15 +214,15 @@ const Problem = () => {
 
   return (
     <div className="problem">
-      <div className="marquee">
+      {/* <div className="marquee">
         <h4>
           <i class="fa-solid fa-bell"></i>&nbsp;&nbsp;PARTICIPATE NOW AND WIN
           AMAZING PRIZE MONEY WORTH 3.5 LAKH + &nbsp;&nbsp;
           <i class="fa-solid fa-bell"></i>
         </h4>
-      </div>
+      </div> */}
       <div className="problem_statements">
-        <h1>PROBLEM STATEMENTS</h1>
+        {/* <h1>PROBLEM STATEMENTS</h1> */}
         <div className="table-responsive " style={{ borderRadius: "10px" }}>
           <table className="table table-hover">
             <thead>

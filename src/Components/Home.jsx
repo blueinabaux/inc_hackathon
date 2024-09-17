@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <>
       <div className="marquee" id="ppt_download">
-        <p>Congratulations to all Winners of TechFiesta'24</p>
+        <p>Congratulations to all Winners of TechFiesta'25</p>
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
